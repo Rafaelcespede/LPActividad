@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'JesusLP';
+  
+  estado:boolean = true;
+
+  actualizarEstado(e:boolean){
+    this.estado=e;
+  }
 }
+
